@@ -12,5 +12,4 @@ In the context of Google's DevArt project I will integrate the Google Search API
 
 
 ## Link to Prototype
-The original work Sunset:
-[Example Link](http://www.openprocessing.org/sketch/114116 "Example Link")
+- [Example Link](http://www.openprocessing.org/sketch/114116 "The original work Sunset")
