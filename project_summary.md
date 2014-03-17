@@ -1,33 +1,16 @@
 # Infinite Sunset
-Insert the name of your project
 
 ## Authors
-- Insert main author name, surname, github account
-- Insert other author(s) name, surname, github account (one per list element)
+- Joseph Gray, grauwald
 
 ## Description
-Insert a description containing about 100 to 150 words, including your motivation and the meaning behind your idea and execution. The Judges will be keen to know how your idea pushes the boundaries of code and technology. 
+Infinite Sunset is a continuation of the piece Sunset which I created after visiting Kauai and staring at the Pacific quite a bit around sunset.  It intentionally uses simple graphical elements to visually describe a sunset seascape ever changing in its sameness.  The piece is meant to be viewed with various devices/contexts and is therefore a "responsive" composition. Ideally the piece is meant to run continuously, projected at a large scale, for long periods of time. 
+
+Infinite Sunset is written in Processing and ports well to processing.js and/or Android as it uses only core functions that are available across those variants.  
+
+In the context of Google's DevArt project I will integrate the Google Search API to find images of sunsets to discover color pallettes for the various compositional elements.  These color pallettes will be generated and applied when the application begins and at various times during its progress.
+
 
 ## Link to Prototype
-NOTE: If your project lives online you can add one or more links here. Make sure you have a stable version of your project running before linking it.
-
-[Example Link](http://www.google.com "Example Link")
-
-## Example Code
-NOTE: Wrap your code blocks or any code citation by using ``` like the example below.
-```
-function test() {
-  console.log("Printing a test");
-}
-```
-## Links to External Libraries
- NOTE: You can also use this space to link to external libraries or Github repositories you used on your project.
-
-[Example Link](http://www.google.com "Example Link")
-
-## Images & Videos
-NOTE: For additional images you can either use a relative link to an image on this repo or an absolute link to an externally hosted image.
-
-![Example Image](project_images/cover.jpg?raw=true "Example Image")
-
-https://www.youtube.com/watch?v=30yGOxJJ2PQ
+The original work Sunset:
+[Example Link](http://www.openprocessing.org/sketch/114116 "Example Link")
