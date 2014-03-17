@@ -1,4 +1,4 @@
-# Project Title
+# Infinite Sunset
 Insert the name of your project
 
 ## Authors
