@@ -1,16 +1,16 @@
 {
     "technologies": {
         "apis": [
-            "insert apis"
+            "Google Custom Search API"
         ],
         "platforms": [
-            "insert platforms"
+            "desktop, web, Android"
         ],
         "toolkits": [
-            "insert toolkits"
+            "Processing IDE"
         ]
     },
     "themes": [
-        "insert themes"
+        "sunset, seascape, meditative, generative, infinite, abstraction, formalism, nature"
     ]
 }
