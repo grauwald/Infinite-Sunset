@@ -4,13 +4,13 @@
             "Google Custom Search API"
         ],
         "platforms": [
-            "desktop, web, Android"
+            "desktop", "web", "Android"
         ],
         "toolkits": [
             "Processing IDE"
         ]
     },
     "themes": [
-        "sunset, seascape, meditative, generative, infinite, abstraction, formalism, nature"
+        "sunset", "seascape", "meditative", "generative", "infinite", "abstraction", "formalism", "nature"
     ]
 }
