@@ -4,10 +4,10 @@
             "Google Custom Search API"
         ],
         "platforms": [
-            "desktop", "web", "Android"
+            "desktop", "web", "Chrome", "Android"
         ],
         "toolkits": [
-            "Processing IDE"
+            "Processing IDE", "Text Wrangler", "Cyberduck FTP", "Apache Server"
         ]
     },
     "themes": [

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Full Screen Sketch with screenWidth and screenHeight</title>
+  <script src="jquery-2.1.0.min.js"></script>
+  <script src="processing-1.4.1.min.js"></script>
+  
+  <script type="text/javascript">
+
+			var InfiniteSunset;
+			$(document).ready(getPjsInstance);
+
+			// obtain a reference to the processing sketch
+			function getPjsInstance() {
+				var bound = false;
+				InfiniteSunset = Processing.getInstanceById('InfiniteSunset');
+				if(InfiniteSunset != null) bound = true;
+				if(!bound) setTimeout(getPjsInstance, 250);
+
+				if(bound) {	
+					$(window).resize(function() {
+					  InfiniteSunset.resizeSketch();
+					});
+				}
+			}
+  </script>
+  
+  <style>
+    body { margin: 0; padding 0; width: 100%; height: 100%; overflow: hidden; }
+  </style>
+<body>
+<canvas id="InfiniteSunset" data-processing-sources="InfiniteSunset.pde"></canvas>
+</body>
+</html>
