@@ -1,6 +1,6 @@
-Part of the piece Infinite Sunset is the ability to view it in various contexts.  I purchased the domain [infinite-sunset.com](http://infinite-sunset.com) to host the web rendering.  The site is simply the original sketch exported to processing.js combined with a bit of jQuery to get fullscreen scaling on the window resize event. 
+Part of the piece Infinite Sunset is the ability to view it in various contexts.  I purchased the domain [infinite-sunset.com](http://infinite-sunset.com) to host the web rendering.  The site is currently just the original sketch exported to processing.js combined with a bit of jQuery to get fullscreen scaling on the window resize event. 
 
-I also dug through some personal photos to find a couple sunset images for reference.  One of them is from a natural swimming hole in  Kauai called Queen's Bath, the other, also setting into the Pacific was shot in the northern part of Big Sur:
+I also dug through some personal photos to find a couple sunset images for reference.  One of them is from a natural swimming hole in  Kauai called Queen's Bath; the other, also setting into the Pacific, was shot in the northern part of Big Sur:
 
 ![Sunset, Queen's Bath, Kauai](../project_images/sunset-Queens-Bath-Kauai.JPG)
 
