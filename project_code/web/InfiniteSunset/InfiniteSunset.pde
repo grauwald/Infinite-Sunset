@@ -5,7 +5,7 @@ float sw;
  
 void setup() {
 
-  resizeSketch();
+  size($(window).width(), $(window).height());
  
   colorMode(HSB);
   background(#025BA7);

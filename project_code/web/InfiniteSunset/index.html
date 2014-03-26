@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Full Screen Sketch with screenWidth and screenHeight</title>
-  <script src="jquery-2.1.0.min.js"></script>
-  <script src="processing-1.4.1.min.js"></script>
-  
-  <script type="text/javascript">
+	<meta name="viewport" content="width=device-width, height=device-height, user-scalable=no">
+	<title>Infinite Sunset</title>
+	<script src="jquery-2.1.0.min.js"></script>
+	<script src="processing-1.4.1.min.js"></script>
+
+	<script type="text/javascript">
 
 			var InfiniteSunset;
 			$(document).ready(getPjsInstance);
@@ -15,20 +16,26 @@
 				var bound = false;
 				InfiniteSunset = Processing.getInstanceById('InfiniteSunset');
 				if(InfiniteSunset != null) bound = true;
-				if(!bound) setTimeout(getPjsInstance, 250);
-
+				if(!bound) setTimeout(getPjsInstance, 250); 
 				if(bound) {	
 					$(window).resize(function() {
 					  InfiniteSunset.resizeSketch();
 					});
 				}
 			}
-  </script>
-  
-  <style>
-    body { margin: 0; padding 0; width: 100%; height: 100%; overflow: hidden; }
-  </style>
+	</script>
+
+	<style>
+		body { margin: 0; padding 0; width: 100%; height: 100%; overflow: hidden; }
+		canvas{
+		   -webkit-transform: translatez(0);
+			-moz-transform: translatez(0);
+			-ms-transform: translatez(0);
+			-o-transform: translatez(0);
+			transform: translatez(0);  // enables hardware acceleration
+		}
+	</style>
 <body>
-<canvas id="InfiniteSunset" data-processing-sources="InfiniteSunset.pde"></canvas>
+	<canvas id="InfiniteSunset" data-processing-sources="InfiniteSunset.pde"></canvas>
 </body>
 </html>
