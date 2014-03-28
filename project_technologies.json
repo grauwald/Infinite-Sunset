@@ -1,16 +1,16 @@
 {
-    "technologies": {
+	"technologies": {
         "apis": [
             "Google Custom Search API"
         ],
         "platforms": [
-            "desktop", "web", "Chrome", "Android"
+            "desktop", "web (Chrome!)"
         ],
         "toolkits": [
             "Processing IDE", "Text Wrangler", "Cyberduck FTP", "Apache Server"
         ]
     },
     "themes": [
-        "sunset", "seascape", "meditative", "generative", "infinite", "abstraction", "formalism", "nature"
+        "sunset", "seascape", "meditative", "minimalism", "generative", "infinite", "abstraction", "formalism", "nature"
     ]
 }
